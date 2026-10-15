@@ -1,7 +1,14 @@
 {
-  "hosting": {
-    "site": "comparecab",
-    "public": ".",
-    "ignore": ["firebase.json", ".firebaserc", "**/.*", "**/.*/**", "**/node_modules/**"]
-  }
+  "hosting": [
+    {
+      "site": "comparecab",
+      "public": ".",
+      "ignore": ["firebase.json", ".firebaserc", "**/.*", "**/.*/**", "**/node_modules/**", "dailytech-apps/**"]
+    },
+    {
+      "site": "dailytech-apps",
+      "public": "dailytech-apps",
+      "ignore": ["**/.*", "**/.*/**"]
+    }
+  ]
 }
